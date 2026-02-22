@@ -1,0 +1,769 @@
+#Class:- 01
+#----------
+
+# We mainly read two domain:- 1. Telecom
+                              2. Healthcare
+                              3. Automative
+
+#TELECOM:-
+#-------
+#What we study in Telecom Domain:-
+- What is Telecom Domain?
+- How the telecom domain is used in IT software industry?
+- What are the different types of services provided in Telecom Domain?
+- What is the workflow of Telecom Domain?
+
+#What is Telecom(sort for telecommunication):-
+'''
+= Telecom means Communication over the distance using technology.
+
+= It involves to transmitting voice, data, text, sound, images, video through the different medium.
+
+= There is two types of medium:-
+  1. Wired Network(fiber optic, copper cable)
+  2. Wireless Network(mobile network, wi-fi, radio waves, microwave link, satellite)
+
+= Telecom domain is used to connect people over the distance.
+
+= In simple torms, Telecom enables people and systems to connect:-
+                                                                  1. Making a phone call
+                                                                  2. Sending a text message
+                                                                  3. Browsing the internet
+                                                                  4. Video calling
+'''
+
+#What is the Telecom domain:-
+'''
+= Telecom domain refers to the industry and the ecosystem.
+
+= When we can built a telecom domain ecosystem, In telecom domain, the design, built, operators,
+  and manages communication networks and services.
+'''
+
+= Telecom covers multiple functional areas:-
+-------------------------------------------------------------------------------------------------------
+Area of Domain                          Description
+-------------------------------------------------------------------------------------------------------
+1. BSS(Business Support System)         -It handles the customer facing operations.
+                                        -It includes:- Billing, Customer Relationship Management(CRM),
+                                                       Order Management, Product Catalog Management.
+-------------------------------------------------------------------------------------------------------
+2. OSS(Operations Support System)        -It handles network facing operations.
+                                         -It includes:- Network configurations, Services activation,
+                                                        Monitoring the networking components
+                                                        and Fault management.
+-------------------------------------------------------------------------------------------------------
+3. Core Network                          -The central part of telecom the route call and data.
+                                         -It includes:- MSC(Mobile Switching Center),
+                                                        HLR(Home Location Register),
+                                                        VLR(Visitor Location Register),
+                                                        PCRF(Policy and Charging Rules Function)
+---------------------------------------------------------------------------------------------------------
+4. Radio Access Network(RAN)            -It connects the end user devices through the network.
+                                         -It includes:- Base Stations, Cell Towers,
+                                                        Antennas, Radio Controllers.
+---------------------------------------------------------------------------------------------------------
+5. Value Added Services(VAS)            -It provides extra services.:- SMS(Short Message Service)
+                                                                       MMS(Multimedia Messaging Service),
+                                                                       Mobile TV, Music Streaming,
+                                                                       Mobile Banking, Culler tune.
+---------------------------------------------------------------------------------------------------------
+6. 5G,4G,VoLTE,IoT                      -These are the latest technologies enabling faster, smarter and the communication.
+                                            -5G and 4G are the mobile network technologies.
+                                            -VoLTE(Voice over LTE) enables high quality voice calls.
+                                            -IoT(Internet of Things) connects devices and systems for data exchange.
+------------------------------------------------------------------------------------------------------------------
+
+#Which company's are using Telecom Domain:-
+'''
+= Telecom mainly three types of companies are using Telecom Domain:-
+  1. Telecom Service operator/Providers:- Airtel, Jio, vodafone, Idea, BSNL, AT&T, Verizon, uscellular, Dillize telecom.
+  2. Network Equipment Manufacturers/vendor:- NVIDIA, Ericsson, Nokia, Huawei, Cisco Systems, ZTE, Juniper Networks.
+  3. IT and Software Companies/IT partners:- IBM, Accenture, Infosys, Tata Consultancy Services(TCS), Wipro, HCL Technologies, Tech Mahindra.
+'''
+
+#Networking Layers in Telecom Domain:-
+'''
+= Networking layers are created known as OSI layers(Open Systems Interconnection).
+
+= Understanding OSI layers is important for anyone in telecom, networking, QA, or backend development,
+  because every call, message, or data packet travel through OSI seven layers.
+'''
+
+#OSI Model Overview:-
+'''
+= The OSI model(developed by ISO) describes how data is moves from one system(computer or mobile) to another system
+  over a network, in seven logical layers.
+'''
+
+#Seven Logical Layers of OSI Model:-
+----------------------------------------------------------------------------------------------------------------------
+Layer Number          Layer Name               Function/Description                        Protocol/Device Example
+------------         -----------              --------------------                        -----------------------
+No.1✅             -Physical layer          -It transmission of bits                   -Cables, Hubs, fiber optics
+                                             over the media(physical devices).          coper wires, wi-fi.
+----------------------------------------------------------------------------------------------------------------------
+No.2✅             -Data Link layer         -It handles physical addressing,            -Ethernet, Switches, PPP(Point to Point Protocol)
+                                             error detection and correction.             PPP is one type of fault detection device.
+----------------------------------------------------------------------------------------------------------------------
+No.3✅             -Network layer           -It handles logical addressing(Connection), -IP(Internet Protocol), Routers
+                                             routing(data transmission).                 ICMP(Internet Control Message Protocol)
+----------------------------------------------------------------------------------------------------------------------
+No.4✅             -Transport layer         -It ensures reliable data transfer          -TCP(Transmission Control Protocol),
+                                             between end to end systems.                 UDP(User Datagram Protocol)
+----------------------------------------------------------------------------------------------------------------------
+No.5               -Session layer           -It manages sessions and connections         -NetBIOS, RPC(Remote Procedure Call)
+                                             between applications.                        SIP(Session Initiation Protocol)
+----------------------------------------------------------------------------------------------------------------------
+No.6               -Presentation layer      -It handles data formatting,                -SSL(Secure Sockets Layer),
+                                             encryption and compression.                 TLS(Transport Layer Security)
+----------------------------------------------------------------------------------------------------------------------
+No.7✅             -Application layer       -It provides User interface                -HTTP(Hypertext Transfer Protocol), DNS(Domain Name System)
+                                             and network services                       FTP(File Transfer Protocol),
+                                             to end user applications.                  SMTP(Simple Mail Transfer Protocol)
+----------------------------------------------------------------------------------------------------------------------
+
+#How IT and Software Industry help Telecom Domain:-
+'''
+= The IT and software industry play a massive role in automating, optimizing, and digitalizing telecom operations.
+'''
+
+#Key area of IT involvement in Telecom Domain:-
+------------------------------------------------------------------------------------------------------
+Function                           IT/Software Roles
+------------------------------------------------------------------------------------------------------
+1. CRM and Billing(BSS)            -Developing system to manage customer data,
+                                    plains, invoices, payments.
+------------------------------------------------------------------------------------------------------
+2. Network Management(OSS)         -For manage networking use tool is wireshark(network monitoring, network speed test,
+                                                                                and it work like a stabilizer for internet flow stable).
+                                   -Tools for network monitoring, configuration,
+                                    alarms and performance analysis.
+------------------------------------------------------------------------------------------------------
+3. Automation & AI                 -Predict network outages, automate customer support(Chatbot)
+                                    optimize network performance.
+------------------------------------------------------------------------------------------------------
+4. Data Analysis & BI              -Analyse the user patterns, churn predictions,
+                                    fraud detections and capacity planning.
+------------------------------------------------------------------------------------------------------
+5. API and Integrations            -that is a linking CRM with Billing system,
+                                    Billing system with network system using Rest API and middleware.
+                                    CRM with BSS and OSS system communicate using API.
+------------------------------------------------------------------------------------------------------
+6. Testing & QA                    -QA team test the desktop application, mobile application,
+                                    web application, API testing, network tool testing,
+                                    BSS and OSS application testing.
+------------------------------------------------------------------------------------------------------
+7. Devops & Cloud                  -Managing the deployments for telecom platforms on AWS, Azure, GCP
+                                    or any private cloud.
+------------------------------------------------------------------------------------------------------
+8. Security                        -Ensuring customers and network data is protected from firewalls,
+                                    encryption and identity management.
+------------------------------------------------------------------------------------------------------
+
+#real time example of Telecom Domain Uses:-
+------------------------------------------------------------------------------------------------------
+Example                            IT Support function
+-----------------------------------------------------------------------------------------------------------
+1. User buy a new sim card         -The CRM system stores users data, plan details.
+                                    The billing system activates the plan and generate invoice.
+----------------------------------------------------------------------------------------------------------------------
+2. Customer recharge plan          -The backend api update the user balance,
+   via application                  triggerd SMS conformation.
+----------------------------------------------------------------------------------------------------------------------
+3. telecom detects high             -OSS tool and AI analysis logs
+   call drops                        and alerts engineers.
+
+----------------------------------------------------------------------------------------------------------------------
+4. Migration from 4G to 5G          -IT system integrating with new 5G core,
+                                     using API and cloud infrastructure.
+----------------------------------------------------------------------------------------------------------------------
+#Note:-
+#1. Telecom = Communication network.
+#2. Telecom Domain = End to End ecosystem of (BSS + OSS + Networks + customers)
+#3. IT/SW = It is the brain that makes telecom run efficiently.
+
+
+#What Services does the Telecom Domain Provide:-
+'''
+= There are three categories of telecom services:-
+------------------------------------------------------------------------------------------------------------
+Category                     Description                                   Examples
+------------------------------------------------------------------------------------------------------------
+1. Basic Telecom Services    -These are the core communication            -Voice calls, SMS, Mobile Data(Internet)
+                              features provided by telecom operators.
+------------------------------------------------------------------------------------------------------------
+2. Supplementary Services     -Add-ons that enhance the basic         -Voicemail, Call Forwarding,
+                               features.                               Caller ID, Conference Calling
+------------------------------------------------------------------------------------------------------------
+3. Value-Added Services(VAS)  -These are extra paid or non-paid       -Ringtones, OTT, Mobile Banking,
+                               feature beyond the basic telecom        Music Streaming, Cloud Storage
+------------------------------------------------------------------------------------------------------------
+'''
+
+#1. Core Telecom Services(Basic Services):-
+'''
+= 1. Voice call services
+= 2. SMS(Short Message Service)
+= 3. Mobile Data/Internet Services
+= 4. MMS(Multimedia Messaging Service)
+= 5. VOIP(Voice over Internet Protocol)
+'''
+
+#2. Supplementary Telecom Services:-
+'''
+=1. Call Forwarding
+=2. Call Waiting
+=3. Caller ID
+=4. Voicemail
+=5. Missed call alerts
+'''
+#Note:- This supplementary services handle by Intelligent Network(IN) system in telecom domain.
+
+#3. Value-Added Services(VAS):-
+'''
+= These are optional or premium features provided to increase revenues and customer engagement.
+
+=1. Entertainment Services:- Ringtones, Mobile TV, Music Subscription, Gaming.
+=2. Information Services:- News updates, Weather alerts, Sports scores.
+=3. Financial Services:- Mobile Banking, Mobile Wallets, Payment services.
+=4. OTT(Over The Top) Services:- Netflix, YouTube, Amazon prime.
+=5. IOT & M2M Services:- Smart home devices, Connected cars, Wearables, vehicle tracking.
+'''
+
+#Modern telecom Services:-
+'''
+= With evolution 4G or 5G, telecom now provides digital
+  and enterprise level of services.
+--------------------------------------------------------------------------------------------------------------
+Service Type                      Description
+--------------------------------------------------------------------------------------------------------------
+1. VolTE(Voice over LTE)/         -High quality IP voice and wifi calling services.
+   VoWiFi(Voice over Wi-Fi)
+--------------------------------------------------------------------------------------------------------------
+2. M2M(Machine to Machine)        -Device communicates directly IOT devices, smart meters,
+   Communication                   vehicle tracking systems.
+   or Model to Model
+--------------------------------------------------------------------------------------------------------------
+3. Cloud and ads services        -Telecom provides hosting and edge computing services.
+--------------------------------------------------------------------------------------------------------------
+4. Private 5G network            -For Industries like factories, airports,
+                                  hospitals provide some private networks.
+--------------------------------------------------------------------------------------------------------------
+5. Enterprise Solutions          -VPN, dedicated lies line.
+--------------------------------------------------------------------------------------------------------------
+'''
+
+#Explain the call flow of telecom end to end(OSS):-
+'''
+= There are two types of call in telecom domain:-
+  1. Pre paid call(Local call)
+  2. Post paid call(International call)
+= Common type call :- 1. voip(through the internet)
+'''
+
+#MS(Mobile Station)(Your Phone):-
+'''
+= It is consist of mobile equipment and SIM(Subscriber Identity Module) card.
+
+= Sim Store the IMSI(International Mobile Subscriber Identity) number
+  and generated UIN(Unique Identification Number) and authentication key.
+
+= It connected to network, nearest BTS(Base Transmission Station) through radio frequency(SS7).
+
+= Functional areas of MS:-
+  -Initiates or receive the call.
+  -Performance authentication by SIM card.
+  -Communication via air interface with BTS.
+'''
+
+#BTS(Base Transmission/Transceiver Station):-
+'''
+= It's a mobile tower you see physically.
+
+= Handel redio communication with your phone(MS).
+
+= It convert analog voice into digital signal for transmission(SS7).
+
+= Functional areas of BTS:-
+  -Manages air interface.
+  -Transmit or receive redio signal.
+  -communicate with BSC(Base Station Controller) over the Abis interface.
+'''
+
+#BSC(Base Station Controller):-
+'''
+= It control multiple BTS towers in one region.
+= It manages the radio resources and handover(When user moves between the towers).
+= It communicate with MSC(Mobile Switching Center) using A interface.
+
+= Functional areas of BSC:-
+  -Allocates channels and manages frequency.
+  -Control handovers between BTS.
+  -Aggregates data from BTS send to BSC, BSC send to MSC.
+'''
+
+#MSC(Mobile Switching Center):-
+'''
+= This is the core switch in the mobile network,
+  heart of circuit-switched telecom.
+= Controls call setup, routing and releasing.
+= Manages subscriber registration, authentication and mobility.
+
+= Functional areas of MSC:-
+  -Routers call between the network.
+  -Interface with HLR, VLR, GMSC, BSC and EIR.
+  -Keeps call logs and billing records(OSR and CDR).
+'''
+#Note:- MSC = Brain of Telecom Network.
+
+#GMSC(Gateway Mobile Switching Center):-
+'''
+= It act like a bridge between different telecom networks.
+  -Ex:- Airtel and Jio are two different network.
+
+= When you call another network, your MSC send the call to GMSC.
+
+= GMSC query's the HLR(Home Location Register) to find where the destination subscriber is located.
+
+= Functional areas of GMSC:-
+  -Routers inter-network calls.
+  -Translate phone number into routing information.
+'''
+
+#HLR(Home Location Register):-
+'''
+= HLR is a central database that contains details of each subscriber data.
+
+= It's store IMSI, MSISDN(Mobile Station International Subscriber Directory Number),
+  subscriber ID services and current VLR(Visitor Location Register) location.
+
+= Functional areas of HLR:-
+  -Authentication data.
+  -Rooming information.
+  -Service authorization.
+'''
+#Note:- HLR = Main database of Telecom Network.
+        - It is like an excel sheet of subscriber data.
+#Note:- HLR tells the network, where is this number currently located.
+
+
+#VLR(Visitor Location Register):-
+'''
+= It is a temporary database for information about subscribers currently active in that area(under a specific MSC).
+
+= Functional areas of VLR:-
+  -Hold the temporary information about the subscriber ID and rooming user.
+  -It helps MSC for locate the subscriber quickly.
+  -Update the location, when the subscriber move to another location.
+'''
+
+
+#AUC(Authentication Center):-
+'''
+= AUC work with HLR.
+
+= stores the subscriber secret keys(KI) for encryption and authentication.
+
+= Authentication sim before allowing the network access.
+'''
+
+#EIR(Equipment Identity Register):-
+'''
+= It containing a list of all valid and invalid IMEIS(International Mobile Equipment Identity) numbers.
+
+= Block stolen or blacklisted devices from accessing the network.
+'''
+
+
+#SS7(Signal System number 7):-
+'''
+= It is transmit the digital signal between MS-A to MS-B.
+
+= It is the nerve system of telecom network.
+= It handles call setup, routing, SMS, roaming and billing signals(Not the actual voice or data).
+'''
+
+#Why SS7 is important in Telecom Domain:-
+'''
+= It separates the signaling(control information) from voice(payload).
+
+= It ensuring efficient routing and error headlining.
+'''
+
+#SS7 stack layer:-
+'''
+=1. MTP:- Message Transfer Part(For message transfer)
+=2. SCCP:- Signaling Connection Control Part(For signaling connection)
+=3. TCAP:- Transaction Capabilities Application Part(It find the network location)
+=4. MAP:- Mobile Application Part(For Authentication)
+'''
+
+
+#End to end voice call flow for project explanation:-
+#Senario:- User A(Airtel, Delhi) make a call to User B(jio, Bhubaneswar).
+'''
+= Step 1:- User A dails User B number, the MS send the request to nearest
+           BTS(Base Transmission Station) using redio signals.
+
+= Step 2:- BTS forwards the request to it's BSC(Base Station Controller), via a ABIS interface.
+
+= Step 3:- BSC send the call setup request to the MSC(Mobile Switching Center) over the A interface.
+
+= Step 4:- MSC authenticates the caller via HLR(Home Location Register), VLR(Visitor Location Register)
+           and AUC(Authentication Center).
+
+= Step 5:- MSC send all the call request to GMSC(Gateway Mobile Switching Center)
+           since User B is in different network.
+
+= Step 6:- GMSC queries the HLR using SS7 map to locates User B's serving MSC and VLR.
+
+= Step 7:- HLR responding the routing information(MSRN)(Mobile Station Roaming Number).
+           back to GMSC via SS7.
+
+Step 8:- GMSC routs the call to the User B's MSC using the MSRN.
+
+Step 9:- User B's MSC contacts B's VLR to find the current BTS or BSC location of B.
+
+Step 10:- BSC and BTS on User B's side alert User B's mobile ringing.
+
+Step 11:- Once User B answer, MSC establish a voice path(Traffic channel(SS7)) between User A and User B.
+
+Step 12:- Call continues through circuit switched path User:- A(MS-A) -----> BTS-A -----> BSC-A -----> MSC-A -----> GMSC-B -----> MSC-B -----> BSC-B -----> BTS-B -----> User B(MS-B)
+
+Step 13:- When either user hangs up call, SS7 release a message and tear down the connection.
+'''
+
+#Diagram of End to End Voice Call Flow in Telecom Domain:-
+'''
+[MS-A] -----> [BTS-A] -----> [BSC-A] -----> [MSC-A] -----> [GMSC-B] -----> [MSC-B] -----> [BSC-B] -----> [BTS-B] -----> [MS-B]
+  |               |               |               |               |               |               |               |
+  |--Redio Signal-|               |               |               |               |               |               |
+                  |--Abis Interface|              |               |               |               |               |
+                                  |--A Interface  |               |               |               |               |
+                                                  |--SS7 Signaling|               |               |               |
+                                                                  |--SS7 Signaling|               |               |
+                                                                                  |--A Interface  |               |
+                                                                                                  |--Abis Interface|
+                                                                                                                  |--Redio Signal-|
+
+'''
+
+#Telecom Domain:- Telecom have 3 main components:-
+'''
+            Telecom Domain
+            --------------
+                   |
+                  CRM -It is a UI interface for customer interaction.
+                   |
+                  BSS -It is API flow and DB flow, and its a middle ware between CRM and OSS.
+                   |
+                  OSS -It is fully backend, it handel network components.
+
+'''
+
+#Telecom Business Architecture:-
+'''
+= In telecom companies, the entire system is mainly divided into three components:-
+
+layer             Name                Purpose               Who Uses It
+-----           ---------           ------------          --------------
+1. Frontend     -CRM(Customer       -Handel the           -Call center employees,
+                 Relationship        customer              Sales team
+                 Management)
+---------------------------------------------------------------------------------
+2. Middleware   -BSS(Business       -Handles the          -Billing payments,
+                 Support System)     business              Customer data
+                                     activities
+---------------------------------------------------------------------------------
+3. Backend     -OSS(Operations      -Handles the           -Network engineers,
+                  Support System)    network                Service activation team
+                                     operations
+---------------------------------------------------------------------------------
+'''
+
+#Telecom CRM(Customer Relationship Management):-
+'''
+= CRM is the system is used to interact with customers.
+
+= Through CRM, Telecom employees can:-
+  -Create a new customer profile(New sim card request).
+  -Change customer plans.
+  -Check complaints.
+  -Track customer uses.
+  -Generate service requests.
+  -handle KYC(Know Your Customer) process.
+
+= CRM Name Examples:-
+  -Sibel CRM
+  -Amdoc CRM
+  -Salesforce CRM
+
+#Example of CRM Use Case:-
+-When you visit any telecom operator store to buy a new sim card,
+ The executive team uses CRM to enter your details and create a account for you.
+
+-If you are a existing customer and your pack is invalid for recharge a valid pack
+ based on the end user request or third party request they can change the plan using CRM,
+ The plans are:- Calls, SMS, Data(Internet), MMS, VOIP.
+'''
+
+#Telecom BSS(Business Support System):-
+'''
+= BSS manages all the business related activities of telecom operations.
+
+= BSS is responsible for:-
+  -Customer account management.
+  -Billing and invoicing.
+  -Recharge, payments and balance checks.
+  -Product catalog and pricing.
+  -Order management.
+
+Note:- BSS ensure that the company earns money properly from the services provided to customers.
+
+= BSS Name Examples:-
+  -Amdocs Billing
+  -Oracle BRM(Billing and Revenue Management)
+  -Ericsson BSCS(Business Support and Control System)
+
+= Example of BSS Use Case:-
+  -When you recharge some pack BSS decide what benefits you should get
+   and deduct the balance correctly from your account.
+'''
+
+#Telecom OSS(Operations Support System):-
+'''
+= OSS is responsible for telecom operations.
+
+= OSS is responsible for:-
+  -Tower and network management.
+  -Service activation(Internet, call, sms)
+  -Fault detection and network monitoring.
+  -sim activation and provisioning
+  -Network performance analysis.
+
+= OSS Name Examples:-
+  -NetAct
+  -TeMIP
+  -OSS-RC
+  -Nagios
+  -Solarwinds
+
+= Example of OSS Use Case:-
+  -When your sim card is activated,
+   OSS send configuration to network element(HLR, VLR, MSC, GMSC, BSC, BTS)
+'''
+
+#OSS Architecture:-
+'''
+User:- Telecom agent, Sales, telecom employee.
+USER-----URL-----WEB_PORTAl-----CRM-----BILLING(BSS)(Invoice)-----MEDIATION
+                                 |                               (Recording)
+                                 |                               (Prepaid-OSC)
+                                 |                               (Postpaid-CDR)
+                              ORDERING(SQL-ORM)
+                                 | |                                          |NETWORK LAYER
+                                 | |         PROVISIONING         |-----------|(BSC, BTS, MSC, GMSC)
+                                 | |              |     |         |           |(CISCO Layer)
+                               INVENTORY----------|     |         |           |
+                              (Wear HOUSE)              |         |           |
+                               (DataBase)            Activation---|           |
+'''                                                    (OSS)
+#The user(Telecom agent, sales, employ) interact in web portal, then go to the CRM, then check the ordering,
+ Then check the inventory(DB, AWS EC2) for data is available or not, if the data is available, ordering check in the billing,
+ then it going to provisioning, then provisioning check the billing send for activation, then for activation it connect with
+ Network layer(BSC, BTS, MSC, GMSC), Then mediation for data recording(For prepaid use OSC, for postpaid use CDR).
+
+#Which OSS you used:- OSS-RC
+#In OSS-RC, you use which product:- Nagos
+
+
+#User or Operator:-
+'''
+= It is a telecom agent, sales, employee which use telecom servers for the customers.
+'''
+
+#Web portal layer:-
+'''
+= It is used by human(agent, sales, employee) who interact with
+  the system through the web portal layer.
+
+= This layer provide access to service life for CRM Billing and ordering.
+'''
+
+#CRM:-
+'''
+= CRM is Customer Relationship Management.
+
+= CRM connected to the BSS(Billing) for customer information, synchronizations
+  and ensuring the right customer data is used for invoicing.
+
+= CRM is connected to ordering for customer order, for new services or modifications.
+'''
+
+#Billing:-
+'''
+= Billing is the part of BSS, who have access to handel payment gateway system,
+  invoicing, monthly bill generation, quarterly bill generation and yearly bill generation.
+'''
+
+#Mediation:-
+'''
+= This connection is process and validate, we record from the network before passing them to the billing system
+  and they can track both prepaid and postpaid services.
+
+= Prepaid services stored in OSC(Online Charging System) and Postpaid stored in CDR(Call Details Record).
+'''
+
+#Odering:-
+'''
+= Ordering for to the check product is available or not.
+
+= Once order is confirmed it connected with the inventory(wear house)
+    and check the particular product is available or not.
+
+= If the product is available ordering fetch the invoice form billing and confirm to provisioning system.
+'''
+
+#Provisioning:-
+'''
+= Provisioning mainly used for to the track the order and activate the services.
+
+= Provisioning directly interact with the OSS layer,
+  it sends data to activation, component for service activation in the network.
+
+= Based on the provisioning information, inventory is automatically updated.
+'''
+
+#Activation:-
+'''
+= Activation is a directly networking system, it interact with management network element
+  to activate and modify the service for the customers.
+'''
+
+#Network Layer(CISCO):-
+'''
+= Network layer used to, after activate the new services or modify the existing services.
+
+= It is directly use the telecom physical products or elements(BSC, BTC, MSC, GMSC, HLR, VLR, SS7).
+'''
+
+
+#Next class:-
+#Technical part explanation(API connect and which part we work, Code).
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Our Work in Telecom Domain:-
+'''
+= CRM = It is fully a UI automation.(CRM have two side 1. Customer side 2. Admin side)
+= BSS = API automation.
+= In CRM and BSS use chatbot for customer support.
+= Here we use AI, because we automate the UI and API(Used tool:- testim, copilot, Mabl)
+= For Chatbot automation we use tool:-  ``GenAI, LLM(large language model), NLP(natural language processing), RAG(retrieval augmented generation)
+'''
+
+#If interviewer ask you what are you working on Telecom Domain?
+'''
+= Telecom have mainly three components, 1. CRM, 2. BSS, 3. OSS,
+  We working on CRM and BSS, In OSS we have basic knowledge,
+  because i am not a part of working team of OSS.
+'''
+
+#IT:- IT build the solutions based on the customer requirements and follow the business roles.
+#Software:- Software is a tool or application that help to automate the IT solutions.
+#QA:- QA is a process of validating the software or application as per the customer requirements and business roles.
+
+#Which section of telecom you first communicate through your any devices?
+'''
+= BTS(Base Transmission Station) is the first point of communication between your device and the telecom network.
+= When you make a call or send a message, your device connects to the nearest BTS.
+= The BTS then relays your communication to the core network for further processing and routing.
+'''
+
+#What is UIN in Telecom Domain?
+'''
+= UIN(Unique Identification Number).
+= Your Mobile number.
+'''
+
+#What is ABIS Interface?
+'''
+= It is a redio network frequency.
+= Example:- we use Internet use when we on the aeroplane over the air.
+'''
+
+#What is 'A interface'?
+'''
+= It is a type of communication protocol.
+= It is used between BSC(Base Station Controller) and MSC(Mobile Switching Center).
+= It help to transmit the digital signal.
+= It is used for call setup, routing and management.
+= It is part of the SS7(Signal System number 7) protocol suite.
+'''
+
+#What is subscriber id:- Your UIN(Mobile Number).
+
+#How to know what is secret key(KI) of your sim card?
+'''
+= It is written like this:-
+  -KI#0000 a7b411202i369
+'''
+
+#Draw the circuit diagram of End to End Voice Call Flow in Telecom Domain:-
+'''
+= User A(MS-A) -----> BTS-A -----> BSC-A -----> MSC-A -----> GMSC-B -----> MSC-B -----> BSC-B -----> BTS-B -----> User B(MS-B)
+'''
+
+#MS-A(Mobile Station A) Connect to BTS(Base Transmission/Transceiver Station) through SS7(Signal System number7),
+ BTS connect with BSC(Base Station Controller), BSC connect with MSC(Mobile Switching Center)
+
+#Which type of voice is coming from MS-A:- Analog voice, Analog voice coming to the receiver,
+ Then receiver transmit the voice, then convert into digital signal.
+
+#What is TRAI?
+'''
+= TRAI(Telecom Regulatory Authority of India).
+
+= Telecom get the data from TRAI
+'''
+
+#What is ORM(Object Relationship Method):-
+'''
+= ORM is a language query, If you write query using python, it automatically covert into sql query.
+
+= If you give text or click, automatic convert into the sql query in backend through the ORM.
+
+= If interviewer ask, have you seen any ORM:-
+  -I have seen Django ORM, but i couldn't understand it.
+'''
+
+#In OSS:- CRM is the part of OSS and also BSS is the part of OSS.
+
+#What is RBAC:-
+'''
+= It is used in API.
+=
+'''
+
+#Your layer:- CISCO
+#Your CRM:- Amdocs, Salesforce
+#your Billing:- Amdocs Billing
+
+
+#Interview Questions:-
+'''
+= 1. Call flow in telecom?
+= 2. What is your work in the telecom domain?
+= 3. OSS architecture?
+'''
