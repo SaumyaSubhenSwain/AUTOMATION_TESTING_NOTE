@@ -1,0 +1,111 @@
+What is Agentic AI?
+
+Agentic AI refers to AI systems that can act autonomously to achieve a goal by making decisions, planning steps, and taking actions without constant human intervention.
+
+Unlike normal Generative AI (which only responds to prompts), Agentic AI can:
+
+Set sub-goals
+
+Plan steps
+
+Use tools (APIs, databases, browsers)
+
+Make decisions based on feedback
+
+Retry if something fails
+
+🧠 Simple Difference
+Generative AI	Agentic AI
+Responds to prompt	Takes actions toward a goal
+One-step output	Multi-step reasoning
+No memory of tasks	Can maintain context & memory
+Example: Write an email	Example: Plan and book a trip
+🔎 Example to Explain in Interview
+
+If you say:
+
+“Book the cheapest flight from Delhi to Mumbai next week.”
+
+Generative AI → Will suggest options.
+
+Agentic AI →
+
+Searches flights
+
+Compares prices
+
+Applies filters
+
+Selects cheapest option
+
+Books ticket
+
+Sends confirmation
+
+That decision-making + action-taking behavior = Agentic AI
+
+🏗️ How Agentic AI Works
+
+Agentic AI usually consists of:
+
+1️⃣ LLM (Brain)
+2️⃣ Memory (Short-term + Long-term)
+3️⃣ Planner
+4️⃣ Tool usage capability
+5️⃣ Feedback loop
+
+Example frameworks:
+
+OpenAI
+
+LangChain
+
+Microsoft AutoGen
+
+🔥 Real-World Examples
+
+Autonomous customer support bots
+
+AI DevOps assistant
+
+Self-debugging coding agents
+
+AI research assistants
+
+Autonomous trading bots
+
+💼 How You Connect It to QA (Very Important)
+
+As a QA Automation Engineer, Agentic AI impacts:
+
+1️⃣ Autonomous Test Agents
+
+AI that:
+
+Reads requirements
+
+Generates test cases
+
+Executes tests
+
+Analyzes failures
+
+Regenerates test steps
+
+2️⃣ Self-Healing Frameworks
+
+AI detects failure → updates locator → re-runs test automatically.
+
+3️⃣ Intelligent Bug Triage
+
+AI agent:
+
+Reads logs
+
+Classifies bug severity
+
+Assigns to correct team
+
+🎯 Strong Interview Answer (Speak Like This)
+
+“Agentic AI is an advanced AI system that not only generates responses but can autonomously plan, reason, and take actions to achieve a specific goal. It uses LLMs along with memory, planning modules, and tool integration. In testing, Agentic AI can be used to build autonomous test agents that generate, execute, and analyze test cases with minimal human intervention.”
