@@ -1,0 +1,73 @@
+What is Generative AI?
+
+Generative AI is a type of Artificial Intelligence that can create new content such as text, images, audio, video, or even code based on the data it has been trained on.
+
+Unlike traditional AI which mainly classifies or predicts, Generative AI actually generates new outputs that resemble human-created content.
+
+🧠 Simple Example
+
+For example:
+
+ChatGPT generates text
+
+DALL·E generates images
+
+GitHub Copilot generates code
+
+These systems are trained on large datasets and use deep learning models like Large Language Models (LLMs).
+
+🔍 How Generative AI Works (High-Level Explanation)
+
+Generative AI is mainly built using:
+
+Large Language Models (LLMs)
+
+Transformer architecture
+
+Neural networks trained on massive datasets
+
+It works by:
+
+Understanding patterns in training data
+
+Predicting the next word/token/pixel
+
+Generating coherent and context-aware output
+
+🔥 Types of Generative AI
+
+Text Generation – Chatbots, content writing
+
+Image Generation – AI art
+
+Code Generation – Auto coding tools
+
+Audio/Video Generation – Voice cloning, AI avatars
+
+💼 How I Connect Generative AI to My QA Experience (Important for You)
+
+As a QA Automation Engineer, I understand Generative AI from a testing perspective, such as:
+
+Validating AI-generated responses
+
+Testing for hallucinations
+
+Prompt validation and optimization
+
+Testing bias and ethical risks
+
+API testing for LLM-based systems
+
+RAG (Retrieval-Augmented Generation) validation
+
+Performance and response time validation
+
+In one of my projects, I worked on validating chatbot responses by:
+
+Creating structured test prompts
+
+Comparing expected vs generated outputs
+
+Testing edge cases and ambiguous queries
+
+Validating fallback responses
